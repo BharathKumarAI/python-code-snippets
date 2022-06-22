@@ -5,12 +5,16 @@ description = "Code snippets for python"
 authors = ["BharathKumarAI"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.11"
 dvc = "^2.10.0"
 pdoc3 = "^0.10.0"
 notebook = "^6.4.10"
 interrogate = "^1.5.0"
 pre-commit = "^2.19.0"
+tensorflow = "^2.9.1"
+watermark = "^2.3.1"
+pydotplus = "^2.0.2"
+sklearn = "^0.0"
 
 
 [tool.poetry.dev-dependencies]
